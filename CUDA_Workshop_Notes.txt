@@ -1,0 +1,23 @@
+program flow:
+------------
+1) kernel definition before host code
+2) declare host and memory variables
+3) Allocate memory on device
+4) Allocate memory and initialize values on host
+5) Copy data from host to device memory
+6) Kernel launch
+7) Synchronize (wait for completion of kernel), blocks host until kernel completion
+8) Copy result from device to host
+9) Print results
+10) Free allocated memory
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+multiple threads from multiple blocks
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+i = threadIdx.x + (blockIdx.x + blockDim.x)
+this formula gives a unique index that will help us access multiple threads from multiple blocks
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
