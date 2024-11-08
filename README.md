@@ -1,1 +1,1 @@
-# edge-computing
+# GPU-workshop
