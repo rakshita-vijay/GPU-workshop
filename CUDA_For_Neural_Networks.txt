@@ -1,0 +1,36 @@
+Deep Learning, Neural Networks, and Machine Learning:
+----------------------------------------------------
+Deep Learning uses Neural Networks, which allows us to learn and represent complex relations between inputs ans outputs
+other commonaly used architechtures include: CNNs, GANs, Transformers
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+fundamentals of NN: neuron
+
+a11 --- w11 ---|
+               |
+a12 --- w12 ---|---> z21 / a21
+               |
+a13 --- w13 ---|
+
+z21 = (a11 * w11) + (a12 * w12) + (a13 * w13)
+a21 = g(z21)
+g: activation function
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+layers:
+•
+•      •
+•      •
+•      •      •
+I/P  Hidden  O/P
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+GANs: Gen AI base
+      produces new stuff by itself
+
+
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
